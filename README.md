@@ -11,7 +11,7 @@ PSEUDOCODE:
 
 4-	Obtain the corner strength which is obtained by the formula 
   R = det(M) – k*(trace(M))**2
-  Here, M is the hessian matrix which is given by 
+  Here, M is the hessian matrix which is given by convolution of a gaussian filter with second derivative of the image in the X and Y directions along the diagonal and convolution of the gaussian filter with product of X and Y derivative of the image as the rest of the elements.
  
 5-	Pass the obtained corner strength matrix into a function which calls the non-maxima suppressor function for these points in the matrix.
 
