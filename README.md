@@ -16,3 +16,5 @@ PSEUDOCODE:
 5-	Pass the obtained corner strength matrix into a function which calls the non-maxima suppressor function for these points in the matrix.
 
 6-	Compare the matrix returned by the non-maxima suppressor function with the threshold value and draw circles around the points in the image where the corner strength is greater than the threshold. 
+
+![alt text](https://github.com/rohitmurali8/Corner-Detection-/blob/master/corners.png)
